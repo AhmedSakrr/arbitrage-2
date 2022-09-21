@@ -158,7 +158,13 @@ fn calc_triangle_step(
     triangle_part: &str,
 ) -> f64 {
     // subtract trading fee - should maybe look at pairs with no fees now !??
-    let trade_amount = trade_amount - ((trade_amount / 100.0) * 0.075);
+
+    let trade_amount = match pair_name {
+        "btcusdt" | "usdtbtc" | "btcbusd" | "busdbtc" | "btcusdc" | "usdcbtc" => trade_amount,
+        _ => trade_amount - ((trade_amount / 100.0) * 0.075),
+    };
+
+    // let trade_amount = trade_amount - ((trade_amount / 100.0) * 0.075); // old solution
     // Compare first part of the part to the part of the triangle
     // to determine on what side of the trade we should be
     if pair_name[..triangle_part.len()] == *triangle_part {

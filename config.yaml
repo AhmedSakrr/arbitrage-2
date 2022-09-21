@@ -67,6 +67,8 @@ depth_streams:
   - maticbnb
   - maticusdt
   - maticbtc
+  - btcbusd
+  - btcusdc
 
 triangles:
   - parts: [btc, eth, bnb]
@@ -181,3 +183,12 @@ triangles:
     pairs: [maticusdt, maticbnb, bnbusdt]
   - parts: [usdt, matic, btc]
     pairs: [maticusdt, maticbtc, btcusdt]
+  
+  - parts: [usdt, btc, busd]
+    pairs: [usdtbtc, btcbusd, busdusdt]
+  - parts: [usdt, btc, busd]
+    pairs: [busdbtc, btcusdt, usdtbtc]
+  - parts: [usdt, btc, busd]
+    pairs: [btcusdt, btcbusd, busdbtc]
+  - parts: [usdt, btc, busd]
+    pairs: [btcbusd, busdusdt, usdtbtc]
