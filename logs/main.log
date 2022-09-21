@@ -1,0 +1,1512 @@
+2022-09-21 07:51:53 - INFO: Configuring websocket route
+2022-09-21 07:51:53 - INFO: Connecting to binance stream...
+2022-09-21 07:51:53 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 07:51:53 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 52.198.152.155:9443...
+2022-09-21 07:51:54 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:51:54 - DEBUG: Not resuming any session
+2022-09-21 07:51:54 - DEBUG: ALPN protocol is None
+2022-09-21 07:51:54 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 07:51:54 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 07:51:54 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:51:54 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 07:51:55 - DEBUG: Client handshake done.
+2022-09-21 07:51:55 - INFO: Connected to binance stream.
+2022-09-21 07:51:55 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 07:51:55 - DEBUG: Response headers:
+2022-09-21 07:51:55 - DEBUG: - date: "Wed, 21 Sep 2022 07:51:55 GMT"
+2022-09-21 07:51:55 - DEBUG: - connection: "upgrade"
+2022-09-21 07:51:55 - DEBUG: - upgrade: "websocket"
+2022-09-21 07:51:55 - DEBUG: - sec-websocket-accept: "qa7YbpuWfB/ydu3jGy8Ani/fe9U="
+2022-09-21 07:51:55 - INFO: Starting update loop
+2022-09-21 07:51:55 - INFO: Starting server
+2022-09-21 07:51:55 - INFO: Server::run; addr=127.0.0.1:8000
+2022-09-21 07:51:55 - INFO: listening on http://127.0.0.1:8000
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:56 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:57 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:58 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:51:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:52:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:55:57 - INFO: Configuring websocket route
+2022-09-21 07:55:57 - INFO: Connecting to binance stream...
+2022-09-21 07:55:57 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 07:55:57 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 18.180.210.161:9443...
+2022-09-21 07:55:58 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:55:58 - DEBUG: Not resuming any session
+2022-09-21 07:55:58 - DEBUG: ALPN protocol is None
+2022-09-21 07:55:58 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 07:55:58 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 07:55:58 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:55:58 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 07:55:59 - DEBUG: Client handshake done.
+2022-09-21 07:55:59 - INFO: Connected to binance stream.
+2022-09-21 07:55:59 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 07:55:59 - DEBUG: Response headers:
+2022-09-21 07:55:59 - DEBUG: - date: "Wed, 21 Sep 2022 07:55:59 GMT"
+2022-09-21 07:55:59 - DEBUG: - connection: "upgrade"
+2022-09-21 07:55:59 - DEBUG: - upgrade: "websocket"
+2022-09-21 07:55:59 - DEBUG: - sec-websocket-accept: "G2kex1zNXfVa+GFNyVyBt+sj8v0="
+2022-09-21 07:55:59 - INFO: Starting update loop
+2022-09-21 07:55:59 - INFO: Starting server
+2022-09-21 07:55:59 - INFO: Server::run; addr=127.0.0.1:8000
+2022-09-21 07:55:59 - INFO: listening on http://127.0.0.1:8000
+2022-09-21 07:55:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:55:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:55:59 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:00 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:01 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:02 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:03 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:07 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:08 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: parsed 14 headers
+2022-09-21 07:56:09 - DEBUG: incoming body is empty
+2022-09-21 07:56:09 - DEBUG: rejected: Rejection(MissingConnectionUpgrade)
+2022-09-21 07:56:09 - DEBUG: flushed 169 bytes
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:09 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: parsed 13 headers
+2022-09-21 07:56:10 - DEBUG: incoming body is empty
+2022-09-21 07:56:10 - DEBUG: rejected: Rejection(NotFound)
+2022-09-21 07:56:10 - DEBUG: flushed 82 bytes
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:10 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:11 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:12 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:13 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:14 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: read eof
+2022-09-21 07:56:17 - DEBUG: read eof
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:19 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:20 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:21 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:22 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:23 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:24 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:25 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:26 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:26 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:26 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:26 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:26 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:32 - INFO: Configuring websocket route
+2022-09-21 07:56:32 - INFO: Connecting to binance stream...
+2022-09-21 07:56:32 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 07:56:32 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 18.180.210.161:9443...
+2022-09-21 07:56:33 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:56:33 - DEBUG: Not resuming any session
+2022-09-21 07:56:33 - DEBUG: ALPN protocol is None
+2022-09-21 07:56:33 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 07:56:33 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 07:56:33 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 07:56:33 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 07:56:34 - DEBUG: Client handshake done.
+2022-09-21 07:56:34 - INFO: Connected to binance stream.
+2022-09-21 07:56:34 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 07:56:34 - DEBUG: Response headers:
+2022-09-21 07:56:34 - DEBUG: - date: "Wed, 21 Sep 2022 07:56:34 GMT"
+2022-09-21 07:56:34 - DEBUG: - connection: "upgrade"
+2022-09-21 07:56:34 - DEBUG: - upgrade: "websocket"
+2022-09-21 07:56:34 - DEBUG: - sec-websocket-accept: "K+unHe7BrywHUOnqPyCKTQ/GYts="
+2022-09-21 07:56:34 - INFO: Starting update loop
+2022-09-21 07:56:34 - INFO: Starting server
+2022-09-21 07:56:34 - INFO: Server::run; addr=127.0.0.1:8000
+2022-09-21 07:56:34 - INFO: listening on http://127.0.0.1:8000
+2022-09-21 07:56:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: parsed 14 headers
+2022-09-21 07:56:36 - DEBUG: incoming body is empty
+2022-09-21 07:56:36 - DEBUG: rejected: Rejection(NotFound)
+2022-09-21 07:56:36 - DEBUG: flushed 82 bytes
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: read eof
+2022-09-21 07:56:37 - DEBUG: read eof
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:41 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:42 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:43 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:44 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: parsed 15 headers
+2022-09-21 07:56:45 - DEBUG: incoming body is empty
+2022-09-21 07:56:45 - DEBUG: rejected: Rejection(NotFound)
+2022-09-21 07:56:45 - DEBUG: flushed 82 bytes
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:45 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:46 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: read eof
+2022-09-21 07:56:47 - DEBUG: read eof
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:47 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:48 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:49 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:50 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:51 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: parsed 14 headers
+2022-09-21 07:56:52 - DEBUG: incoming body is empty
+2022-09-21 07:56:52 - DEBUG: rejected: Rejection(MissingConnectionUpgrade)
+2022-09-21 07:56:52 - DEBUG: flushed 169 bytes
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:52 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:53 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:54 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 07:56:55 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:14 - INFO: Configuring websocket route
+2022-09-21 08:12:14 - INFO: Connecting to binance stream...
+2022-09-21 08:12:14 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 08:12:14 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 18.182.147.147:9443...
+2022-09-21 08:12:14 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:12:14 - DEBUG: Not resuming any session
+2022-09-21 08:12:14 - DEBUG: ALPN protocol is None
+2022-09-21 08:12:14 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 08:12:14 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 08:12:14 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:12:15 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 08:12:15 - DEBUG: Client handshake done.
+2022-09-21 08:12:15 - INFO: Connected to binance stream.
+2022-09-21 08:12:15 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 08:12:15 - DEBUG: Response headers:
+2022-09-21 08:12:15 - DEBUG: - date: "Wed, 21 Sep 2022 08:12:15 GMT"
+2022-09-21 08:12:15 - DEBUG: - connection: "upgrade"
+2022-09-21 08:12:15 - DEBUG: - upgrade: "websocket"
+2022-09-21 08:12:15 - DEBUG: - sec-websocket-accept: "elnONAhJLigcTdW2wJL2LWyJWoY="
+2022-09-21 08:12:15 - INFO: Starting update loop
+2022-09-21 08:12:15 - INFO: Starting server
+2022-09-21 08:12:15 - INFO: Server::run; addr=127.0.0.1:3000
+2022-09-21 08:12:15 - INFO: listening on http://127.0.0.1:3000
+2022-09-21 08:12:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:15 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:16 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:17 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:12:18 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:02 - INFO: Configuring websocket route
+2022-09-21 08:13:02 - INFO: Connecting to binance stream...
+2022-09-21 08:13:02 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 08:13:02 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 18.182.147.147:9443...
+2022-09-21 08:13:03 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:13:03 - DEBUG: Not resuming any session
+2022-09-21 08:13:03 - DEBUG: ALPN protocol is None
+2022-09-21 08:13:03 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 08:13:03 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 08:13:03 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:13:03 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 08:13:04 - DEBUG: Client handshake done.
+2022-09-21 08:13:04 - INFO: Connected to binance stream.
+2022-09-21 08:13:04 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 08:13:04 - DEBUG: Response headers:
+2022-09-21 08:13:04 - DEBUG: - date: "Wed, 21 Sep 2022 08:13:04 GMT"
+2022-09-21 08:13:04 - DEBUG: - connection: "upgrade"
+2022-09-21 08:13:04 - DEBUG: - upgrade: "websocket"
+2022-09-21 08:13:04 - DEBUG: - sec-websocket-accept: "pp8n3ZKajQvF6SyqPHrkrzvCOE8="
+2022-09-21 08:13:04 - INFO: Starting update loop
+2022-09-21 08:13:04 - INFO: Starting server
+2022-09-21 08:13:04 - INFO: Server::run; addr=127.0.0.1:3000
+2022-09-21 08:13:04 - INFO: listening on http://127.0.0.1:3000
+2022-09-21 08:13:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:04 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:05 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:13:06 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:33 - INFO: Configuring websocket route
+2022-09-21 08:22:33 - INFO: Connecting to binance stream...
+2022-09-21 08:22:33 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 08:22:33 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 54.92.120.121:9443...
+2022-09-21 08:22:33 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:22:33 - DEBUG: Not resuming any session
+2022-09-21 08:22:33 - DEBUG: ALPN protocol is None
+2022-09-21 08:22:33 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 08:22:33 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 08:22:33 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:22:34 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 08:22:34 - DEBUG: Client handshake done.
+2022-09-21 08:22:34 - INFO: Connected to binance stream.
+2022-09-21 08:22:34 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 08:22:34 - DEBUG: Response headers:
+2022-09-21 08:22:34 - DEBUG: - date: "Wed, 21 Sep 2022 08:22:34 GMT"
+2022-09-21 08:22:34 - DEBUG: - connection: "upgrade"
+2022-09-21 08:22:34 - DEBUG: - upgrade: "websocket"
+2022-09-21 08:22:34 - DEBUG: - sec-websocket-accept: "bF1G9jYpCMK6Jah06hU1PYnUlAc="
+2022-09-21 08:22:34 - INFO: Starting update loop
+2022-09-21 08:22:34 - INFO: Starting server
+2022-09-21 08:22:34 - INFO: Server::run; addr=127.0.0.1:3000
+2022-09-21 08:22:34 - INFO: listening on http://127.0.0.1:3000
+2022-09-21 08:22:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:34 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055785,"bids":[["0.00002102","6764.00000000"],["0.00002101","21457.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10912.00000000"],["0.00002104","21838.00000000"],["0.00002105","13983.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:34 - INFO: msg: {"stream":"adabnb@depth5@100ms","data":{"lastUpdateId":471082451,"bids":[["0.00168500","13625.00000000"],["0.00168400","7196.30000000"],["0.00168300","18158.50000000"],["0.00168200","4635.30000000"],["0.00168100","11244.40000000"]],"asks":[["0.00168700","17243.10000000"],["0.00168800","5362.10000000"],["0.00168900","2603.90000000"],["0.00169000","13744.40000000"],["0.00169100","10801.80000000"]]}}
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:34 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:34 - INFO: ("xrpbtc", "xrpeth", "ethbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:34 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:34 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:34 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957081526,"bids":[["0.00033640","2618.10000000"],["0.00033630","28652.30000000"],["0.00033620","5749.20000000"],["0.00033610","3328.60000000"],["0.00033600","4006.60000000"]],"asks":[["0.00033660","22.70000000"],["0.00033670","6524.80000000"],["0.00033680","12412.10000000"],["0.00033690","939.70000000"],["0.00033700","1695.50000000"]]}}
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848265,"bids":[["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029900","2520.00000000"],["0.00029870","1090.00000000"],["0.00029860","3268.00000000"]],"asks":[["0.00029930","1244.00000000"],["0.00029940","668.00000000"],["0.00029950","1736.00000000"],["0.00029960","3270.00000000"],["0.00029990","18715.00000000"]]}}
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:35 - INFO: ("xrpbtc", "xrpeth", "ethbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901677,"bids":[["0.07026200","10.81100000"],["0.07026100","10.52090000"],["0.07026000","1.50340000"],["0.07025900","3.17250000"],["0.07025800","0.16340000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681937,"bids":[["0.00167230","71.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","19.62000000"],["0.00167190","3.03000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","23.81000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055791,"bids":[["0.00002102","26764.00000000"],["0.00002101","21457.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10745.00000000"],["0.00002104","21838.00000000"],["0.00002105","13983.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"adabnb@depth5@100ms","data":{"lastUpdateId":471082452,"bids":[["0.00168500","13625.00000000"],["0.00168400","7196.30000000"],["0.00168300","17858.50000000"],["0.00168200","4635.30000000"],["0.00168100","11244.40000000"]],"asks":[["0.00168700","17243.10000000"],["0.00168800","5362.10000000"],["0.00168900","2603.90000000"],["0.00169000","13744.40000000"],["0.00169100","10801.80000000"]]}}
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848266,"bids":[["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029900","2520.00000000"],["0.00029870","1090.00000000"],["0.00029860","32.00000000"]],"asks":[["0.00029930","1244.00000000"],["0.00029940","668.00000000"],["0.00029950","1736.00000000"],["0.00029960","3270.00000000"],["0.00029990","18715.00000000"]]}}
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901678,"bids":[["0.07026200","10.81100000"],["0.07026100","10.52090000"],["0.07026000","1.50340000"],["0.07025900","3.17250000"],["0.07025800","0.16340000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681938,"bids":[["0.00167230","61.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","19.62000000"],["0.00167190","3.03000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","23.81000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:35 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215583375,"bids":[["0.19950000","28.40700000"],["0.19940000","32.71200000"],["0.19930000","41.53600000"],["0.19920000","47.49700000"],["0.19910000","12.30000000"]],"asks":[["0.19960000","22.57800000"],["0.19970000","50.44600000"],["0.19980000","36.61500000"],["0.19990000","21.54000000"],["0.20000000","101.97000000"]]}}
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:35 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:35 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344359,"bids":[["0.00002364","8102.10000000"],["0.00002363","16987.70000000"],["0.00002362","43663.40000000"],["0.00002361","47965.60000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","9715.40000000"],["0.00002366","13740.40000000"],["0.00002367","12299.00000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901679,"bids":[["0.07026200","11.81930000"],["0.07026100","10.52090000"],["0.07026000","1.50340000"],["0.07025900","3.17250000"],["0.07025800","0.16340000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:36 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055792,"bids":[["0.00002102","26764.00000000"],["0.00002101","21457.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10912.00000000"],["0.00002104","21838.00000000"],["0.00002105","13983.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"sushibtc@depth5@100ms","data":{"lastUpdateId":624550383,"bids":[["0.00005440","165.30000000"],["0.00005430","5779.80000000"],["0.00005420","11802.70000000"],["0.00005410","3830.50000000"],["0.00005400","4187.70000000"]],"asks":[["0.00005450","2957.30000000"],["0.00005460","12143.10000000"],["0.00005470","4824.40000000"],["0.00005480","6734.40000000"],["0.00005490","2943.70000000"]]}}
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:36 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957081527,"bids":[["0.00033640","2618.10000000"],["0.00033630","28652.30000000"],["0.00033620","5749.20000000"],["0.00033610","3328.60000000"],["0.00033600","4006.60000000"]],"asks":[["0.00033660","22.70000000"],["0.00033670","6524.80000000"],["0.00033680","12412.10000000"],["0.00033690","939.70000000"],["0.00033700","1695.50000000"]]}}
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344361,"bids":[["0.00002364","8102.10000000"],["0.00002363","16987.70000000"],["0.00002362","43663.40000000"],["0.00002361","47965.60000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","9715.40000000"],["0.00002366","15082.70000000"],["0.00002367","11628.10000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:36 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681939,"bids":[["0.00167230","61.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","3.50000000"],["0.00167190","3.03000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","23.81000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848267,"bids":[["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029900","2520.00000000"],["0.00029870","1090.00000000"],["0.00029860","32.00000000"]],"asks":[["0.00029930","1244.00000000"],["0.00029940","668.00000000"],["0.00029950","14449.00000000"],["0.00029960","3270.00000000"],["0.00029990","18715.00000000"]]}}
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:36 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901688,"bids":[["0.07026200","9.47910000"],["0.07026100","10.52090000"],["0.07026000","1.39150000"],["0.07025900","3.17250000"],["0.07025800","0.16340000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:36 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055796,"bids":[["0.00002102","26764.00000000"],["0.00002101","11876.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10912.00000000"],["0.00002104","21838.00000000"],["0.00002105","13983.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:36 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:36 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344364,"bids":[["0.00002364","8102.10000000"],["0.00002363","16987.70000000"],["0.00002362","43663.40000000"],["0.00002361","47965.60000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","10251.40000000"],["0.00002366","11396.20000000"],["0.00002367","11628.10000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681942,"bids":[["0.00167230","61.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","3.50000000"],["0.00167190","19.63000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","23.81000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:37 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:37 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.00573697112015914, -0.006555702136808672]
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:37 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848268,"bids":[["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029900","2520.00000000"],["0.00029890","2519.00000000"],["0.00029870","1090.00000000"]],"asks":[["0.00029930","1244.00000000"],["0.00029940","668.00000000"],["0.00029950","14449.00000000"],["0.00029960","3270.00000000"],["0.00029990","18715.00000000"]]}}
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"xrpbnb@depth5@100ms","data":{"lastUpdateId":393422958,"bids":[["0.00149900","7000.00000000"],["0.00149800","11885.00000000"],["0.00149700","18670.00000000"],["0.00149600","16370.00000000"],["0.00149500","38.00000000"]],"asks":[["0.00150000","9475.00000000"],["0.00150100","6353.00000000"],["0.00150200","20218.00000000"],["0.00150300","4345.00000000"],["0.00150400","3938.00000000"]]}}
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:37 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:37 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.006223001434242259]
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:37 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055797,"bids":[["0.00002102","27020.00000000"],["0.00002101","11876.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10912.00000000"],["0.00002104","21838.00000000"],["0.00002105","13983.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"sushibtc@depth5@100ms","data":{"lastUpdateId":624550384,"bids":[["0.00005440","165.30000000"],["0.00005430","5669.10000000"],["0.00005420","11802.70000000"],["0.00005410","3830.50000000"],["0.00005400","4187.70000000"]],"asks":[["0.00005450","2846.60000000"],["0.00005460","12143.10000000"],["0.00005470","4824.40000000"],["0.00005480","6734.40000000"],["0.00005490","2943.70000000"]]}}
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:37 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:37 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.006223001434242259]
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:37 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681945,"bids":[["0.00167230","61.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","3.50000000"],["0.00167190","19.63000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","24.02000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957081528,"bids":[["0.00033640","2618.10000000"],["0.00033630","28652.30000000"],["0.00033620","5749.20000000"],["0.00033610","3328.60000000"],["0.00033600","4006.60000000"]],"asks":[["0.00033660","22.70000000"],["0.00033670","6524.80000000"],["0.00033680","10173.80000000"],["0.00033690","939.70000000"],["0.00033700","1695.50000000"]]}}
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:37 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:37 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.006223001434242259]
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:37 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901689,"bids":[["0.07026200","9.47910000"],["0.07026100","10.52090000"],["0.07026000","1.39150000"],["0.07025900","3.17250000"],["0.07025700","0.65890000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:37 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:37 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848269,"bids":[["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029900","2520.00000000"],["0.00029890","2519.00000000"],["0.00029870","1090.00000000"]],"asks":[["0.00029930","155.00000000"],["0.00029940","668.00000000"],["0.00029950","14449.00000000"],["0.00029960","3270.00000000"],["0.00029990","18715.00000000"]]}}
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:37 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:37 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.00623714611525461]
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:37 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:37 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:37 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"xrpbnb@depth5@100ms","data":{"lastUpdateId":393422959,"bids":[["0.00149900","13293.00000000"],["0.00149800","11885.00000000"],["0.00149700","18670.00000000"],["0.00149600","16370.00000000"],["0.00149500","38.00000000"]],"asks":[["0.00150000","9475.00000000"],["0.00150100","6353.00000000"],["0.00150200","20218.00000000"],["0.00150300","4345.00000000"],["0.00150400","3938.00000000"]]}}
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055802,"bids":[["0.00002102","27020.00000000"],["0.00002101","7692.00000000"],["0.00002100","22237.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","10745.00000000"],["0.00002104","8320.00000000"],["0.00002105","13345.00000000"],["0.00002106","17587.00000000"],["0.00002107","28336.00000000"]]}}
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:38 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:38 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.00623714611525461]
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:38 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"sushibtc@depth5@100ms","data":{"lastUpdateId":624550386,"bids":[["0.00005440","165.30000000"],["0.00005430","5779.80000000"],["0.00005420","11802.70000000"],["0.00005410","3830.50000000"],["0.00005400","4187.70000000"]],"asks":[["0.00005450","2957.30000000"],["0.00005460","12143.10000000"],["0.00005470","4824.40000000"],["0.00005480","6734.40000000"],["0.00005490","2943.70000000"]]}}
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"solbnb@depth5@100ms","data":{"lastUpdateId":493833555,"bids":[["0.11920000","11.00000000"],["0.11910000","45.96000000"],["0.11900000","326.90000000"],["0.11890000","86.41000000"],["0.11880000","48.06000000"]],"asks":[["0.11930000","52.82000000"],["0.11940000","67.37000000"],["0.11950000","21.69000000"],["0.11960000","301.32000000"],["0.11970000","161.89000000"]]}}
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:38 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:38 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.00623714611525461]
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:38 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191681946,"bids":[["0.00167230","61.79000000"],["0.00167220","17.93000000"],["0.00167210","16.72000000"],["0.00167200","3.50000000"],["0.00167190","19.63000000"]],"asks":[["0.00167240","11.29000000"],["0.00167250","15.67000000"],["0.00167260","9.33000000"],["0.00167270","24.02000000"],["0.00167280","47.96000000"]]}}
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957081530,"bids":[["0.00033640","4856.90000000"],["0.00033630","28652.30000000"],["0.00033620","5749.20000000"],["0.00033610","3328.60000000"],["0.00033600","4006.60000000"]],"asks":[["0.00033660","2261.50000000"],["0.00033670","6524.80000000"],["0.00033680","10173.80000000"],["0.00033690","939.70000000"],["0.00033700","1695.50000000"]]}}
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:38 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:38 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0026093443644803482, -0.0034307672252078536, -0.004251400156835561, -0.005071244284618581, -0.00623714611525461]
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:38 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901691,"bids":[["0.07026200","9.47910000"],["0.07026100","10.52090000"],["0.07026000","1.39150000"],["0.07025900","3.17250000"],["0.07025700","0.65890000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027100","0.27260000"]]}}
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848283,"bids":[["0.00029930","3480.00000000"],["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029880","3091.00000000"],["0.00029870","97.00000000"]],"asks":[["0.00029940","668.00000000"],["0.00029950","1736.00000000"],["0.00029990","18715.00000000"],["0.00030000","202.00000000"],["0.00030020","14396.00000000"]]}}
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:38 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:38 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:38 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"xrpbnb@depth5@100ms","data":{"lastUpdateId":393422960,"bids":[["0.00149900","13293.00000000"],["0.00149800","11885.00000000"],["0.00149700","18670.00000000"],["0.00149600","16370.00000000"],["0.00149500","38.00000000"]],"asks":[["0.00150000","282.00000000"],["0.00150100","6353.00000000"],["0.00150200","20218.00000000"],["0.00150300","4345.00000000"],["0.00150400","3938.00000000"]]}}
+2022-09-21 08:22:38 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:38 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055817,"bids":[["0.00002102","27020.00000000"],["0.00002101","11768.00000000"],["0.00002100","24116.00000000"],["0.00002099","17539.00000000"],["0.00002098","14767.00000000"]],"asks":[["0.00002103","3048.00000000"],["0.00002104","9770.00000000"],["0.00002105","13345.00000000"],["0.00002106","17587.00000000"],["0.00002107","25600.00000000"]]}}
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:38 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:38 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:38 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:38 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:38 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"solbnb@depth5@100ms","data":{"lastUpdateId":493833557,"bids":[["0.11920000","11.00000000"],["0.11910000","45.96000000"],["0.11900000","326.90000000"],["0.11890000","86.41000000"],["0.11880000","48.06000000"]],"asks":[["0.11930000","52.82000000"],["0.11940000","67.37000000"],["0.11950000","16.67000000"],["0.11960000","310.05000000"],["0.11970000","161.89000000"]]}}
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344365,"bids":[["0.00002364","8102.10000000"],["0.00002363","16987.70000000"],["0.00002362","43663.40000000"],["0.00002361","40349.30000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","10251.40000000"],["0.00002366","11396.20000000"],["0.00002367","11628.10000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:39 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:39 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:39 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056748164896440745]
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901692,"bids":[["0.07026200","9.47910000"],["0.07026100","10.52090000"],["0.07026000","1.39150000"],["0.07025900","3.17250000"],["0.07025700","0.65890000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027000","0.16640000"]]}}
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055832,"bids":[["0.00002102","33227.00000000"],["0.00002101","23484.00000000"],["0.00002100","12400.00000000"],["0.00002099","43090.00000000"],["0.00002098","29767.00000000"]],"asks":[["0.00002103","1748.00000000"],["0.00002104","8450.00000000"],["0.00002105","14665.00000000"],["0.00002106","17587.00000000"],["0.00002107","24165.00000000"]]}}
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:39 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:39 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:39 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056606664229937875]
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"solbnb@depth5@100ms","data":{"lastUpdateId":493833558,"bids":[["0.11920000","11.00000000"],["0.11910000","45.96000000"],["0.11900000","326.90000000"],["0.11890000","111.54000000"],["0.11880000","48.06000000"]],"asks":[["0.11930000","52.82000000"],["0.11940000","67.37000000"],["0.11950000","16.67000000"],["0.11960000","310.05000000"],["0.11970000","161.89000000"]]}}
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344372,"bids":[["0.00002364","8102.10000000"],["0.00002363","16987.70000000"],["0.00002362","42105.50000000"],["0.00002361","40349.30000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","10251.40000000"],["0.00002366","10277.80000000"],["0.00002367","14150.10000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:39 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:39 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:39 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056606664229937875]
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"xrpbnb@depth5@100ms","data":{"lastUpdateId":393422961,"bids":[["0.00149900","13293.00000000"],["0.00149800","11885.00000000"],["0.00149700","17410.00000000"],["0.00149600","16370.00000000"],["0.00149500","38.00000000"]],"asks":[["0.00150000","282.00000000"],["0.00150100","6353.00000000"],["0.00150200","20218.00000000"],["0.00150300","4345.00000000"],["0.00150400","3938.00000000"]]}}
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022848284,"bids":[["0.00029930","4667.00000000"],["0.00029920","4257.00000000"],["0.00029910","22655.00000000"],["0.00029880","3091.00000000"],["0.00029870","97.00000000"]],"asks":[["0.00029940","668.00000000"],["0.00029950","1736.00000000"],["0.00029990","18715.00000000"],["0.00030000","202.00000000"],["0.00030020","14396.00000000"]]}}
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:39 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:39 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0022759918726235062, -0.0030975779130129055, -0.003918373869262637, -0.005404107702388861, -0.00623714611525461]
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:39 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:39 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:39 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056606664229937875]
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954901694,"bids":[["0.07026200","9.47910000"],["0.07026100","10.52090000"],["0.07026000","1.39150000"],["0.07025900","3.17250000"],["0.07025700","0.65890000"]],"asks":[["0.07026300","13.68650000"],["0.07026400","1.21580000"],["0.07026800","0.02260000"],["0.07026900","0.00590000"],["0.07027000","0.16640000"]]}}
+2022-09-21 08:22:39 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:39 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837055859,"bids":[["0.00002103","4856.00000000"],["0.00002102","30595.00000000"],["0.00002101","23484.00000000"],["0.00002100","10860.00000000"],["0.00002099","43090.00000000"]],"asks":[["0.00002104","2600.00000000"],["0.00002105","12288.00000000"],["0.00002106","16276.00000000"],["0.00002107","20160.00000000"],["0.00002108","22947.00000000"]]}}
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:40 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:40 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027501952985392597, -0.003571165761985462, -0.004391347101043608, -0.005876151315249767, -0.006708570618994991]
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:40 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056606664229937875]
+2022-09-21 08:22:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:40 - INFO: msg: {"stream":"sushibtc@depth5@100ms","data":{"lastUpdateId":624550387,"bids":[["0.00005440","165.30000000"],["0.00005430","5695.90000000"],["0.00005420","11802.70000000"],["0.00005410","3830.50000000"],["0.00005400","4187.70000000"]],"asks":[["0.00005450","2873.40000000"],["0.00005460","12143.10000000"],["0.00005470","4824.40000000"],["0.00005480","6734.40000000"],["0.00005490","2943.70000000"]]}}
+2022-09-21 08:22:40 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:22:40 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419344378,"bids":[["0.00002364","5234.30000000"],["0.00002363","16987.70000000"],["0.00002362","38850.10000000"],["0.00002361","41112.60000000"],["0.00002360","44053.70000000"]],"asks":[["0.00002365","10251.40000000"],["0.00002366","10277.80000000"],["0.00002367","14150.10000000"],["0.00002368","17277.50000000"],["0.00002369","25983.10000000"]]}}
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:22:40 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:22:40 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027501952985392597, -0.003571165761985462, -0.004391347101043608, -0.005876151315249767, -0.006708570618994991]
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:22:40 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:22:40 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:22:40 - INFO: ["btc", "eth", "ada"] potential profits: [-0.002692367941905416, -0.003424499752653576, -0.004198700645467679, -0.004929906706833909, -0.0056606664229937875]
+2022-09-21 08:30:30 - INFO: Configuring websocket route
+2022-09-21 08:30:30 - INFO: Connecting to binance stream...
+2022-09-21 08:30:30 - INFO: Subscribing to binance: wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms
+2022-09-21 08:30:31 - DEBUG: Trying to contact wss://stream.binance.com:9443/stream?streams=ethbtc@depth5@100ms/bnbeth@depth5@100ms/bnbbtc@depth5@100ms/sushibtc@depth5@100ms/sushibnb@depth5@100ms/solbtc@depth5@100ms/solbnb@depth5@100ms/xrpbtc@depth5@100ms/xrpeth@depth5@100ms/xrpbnb@depth5@100ms/adabnb@depth5@100ms/adabtc@depth5@100ms/adaeth@depth5@100ms at 52.192.3.93:9443...
+2022-09-21 08:30:31 - DEBUG: No cached session for DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:30:31 - DEBUG: Not resuming any session
+2022-09-21 08:30:31 - DEBUG: ALPN protocol is None
+2022-09-21 08:30:31 - DEBUG: Using ciphersuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2022-09-21 08:30:31 - DEBUG: ECDHE curve is ECParameters { curve_type: NamedCurve, named_group: secp256r1 }
+2022-09-21 08:30:31 - DEBUG: Server DNS name is DnsName(DnsName(DnsName("stream.binance.com")))
+2022-09-21 08:30:31 - DEBUG: Session not saved: server didn't allocate id or ticket
+2022-09-21 08:30:32 - DEBUG: Client handshake done.
+2022-09-21 08:30:32 - INFO: Connected to binance stream.
+2022-09-21 08:30:32 - DEBUG: HTTP status code: 101 Switching Protocols
+2022-09-21 08:30:32 - DEBUG: Response headers:
+2022-09-21 08:30:32 - DEBUG: - date: "Wed, 21 Sep 2022 08:30:32 GMT"
+2022-09-21 08:30:32 - DEBUG: - connection: "upgrade"
+2022-09-21 08:30:32 - DEBUG: - upgrade: "websocket"
+2022-09-21 08:30:32 - DEBUG: - sec-websocket-accept: "7qtpcp95qqcbrmdaJldOQV+HiM0="
+2022-09-21 08:30:32 - INFO: Starting update loop
+2022-09-21 08:30:32 - INFO: Starting server
+2022-09-21 08:30:32 - INFO: Server::run; addr=127.0.0.1:3000
+2022-09-21 08:30:32 - INFO: listening on http://127.0.0.1:3000
+2022-09-21 08:30:32 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:32 - INFO: msg: {"stream":"bnbbtc@depth5@100ms","data":{"lastUpdateId":2807897660,"bids":[["0.01402500","14.55100000"],["0.01402400","8.03500000"],["0.01402300","2.98200000"],["0.01402200","4.06500000"],["0.01402100","14.58500000"]],"asks":[["0.01402600","3.73700000"],["0.01402700","5.95700000"],["0.01402800","6.83100000"],["0.01402900","8.74900000"],["0.01403000","112.23400000"]]}}
+2022-09-21 08:30:32 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:32 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691850,"bids":[["0.00167040","7.88000000"],["0.00167030","22.47000000"],["0.00167020","10.40000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"]],"asks":[["0.00167050","86.55000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"],["0.00167090","19.55000000"]]}}
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:32 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:32 - INFO: ("xrpbtc", "xrpeth", "ethbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ("adabtc", "adabnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:32 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:32 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419347438,"bids":[["0.00002362","1681.70000000"],["0.00002361","20920.30000000"],["0.00002360","44405.00000000"],["0.00002359","30150.50000000"],["0.00002358","54426.00000000"]],"asks":[["0.00002363","10500.40000000"],["0.00002364","24228.20000000"],["0.00002365","44237.30000000"],["0.00002366","30924.60000000"],["0.00002367","16274.90000000"]]}}
+2022-09-21 08:30:32 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:32 - INFO: msg: {"stream":"adabnb@depth5@100ms","data":{"lastUpdateId":471083062,"bids":[["0.00168400","101.40000000"],["0.00168300","8502.20000000"],["0.00168200","5123.00000000"],["0.00168100","14072.00000000"],["0.00168000","17429.90000000"]],"asks":[["0.00168500","13237.30000000"],["0.00168600","4560.10000000"],["0.00168700","8659.40000000"],["0.00168800","976.10000000"],["0.00168900","17632.90000000"]]}}
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:32 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:32 - INFO: ("xrpbtc", "xrpeth", "ethbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:32 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:32 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:32 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954922361,"bids":[["0.07027800","9.63570000"],["0.07027500","0.01000000"],["0.07027400","0.52750000"],["0.07027300","1.30590000"],["0.07027200","0.43470000"]],"asks":[["0.07027900","11.99940000"],["0.07028000","1.92880000"],["0.07028100","0.00590000"],["0.07028200","0.07500000"],["0.07028400","1.29950000"]]}}
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022852803,"bids":[["0.00029880","10182.00000000"],["0.00029870","23713.00000000"],["0.00029860","2776.00000000"],["0.00029840","800.00000000"],["0.00029830","15066.00000000"]],"asks":[["0.00029900","856.00000000"],["0.00029910","19442.00000000"],["0.00029920","993.00000000"],["0.00029930","3471.00000000"],["0.00029940","668.00000000"]]}}
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:33 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:33 - INFO: ("xrpbtc", "xrpeth", "ethbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:33 - INFO: ("ethbtc", "adaeth", "adabtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837068996,"bids":[["0.00002100","10793.00000000"],["0.00002099","20257.00000000"],["0.00002098","14304.00000000"],["0.00002097","28475.00000000"],["0.00002096","17697.00000000"]],"asks":[["0.00002101","11191.00000000"],["0.00002102","11074.00000000"],["0.00002103","33427.00000000"],["0.00002104","24675.00000000"],["0.00002105","51288.00000000"]]}}
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957082943,"bids":[["0.00033600","6772.80000000"],["0.00033590","8442.10000000"],["0.00033580","1278.10000000"],["0.00033570","211.60000000"],["0.00033560","1988.30000000"]],"asks":[["0.00033620","2843.40000000"],["0.00033630","7242.90000000"],["0.00033640","5048.60000000"],["0.00033650","4021.20000000"],["0.00033660","6003.80000000"]]}}
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:33 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:33 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"bnbbtc@depth5@100ms","data":{"lastUpdateId":2807897666,"bids":[["0.01402500","12.46900000"],["0.01402400","8.03500000"],["0.01402300","2.98200000"],["0.01402200","4.06500000"],["0.01402100","14.58500000"]],"asks":[["0.01402600","3.36000000"],["0.01402700","5.95700000"],["0.01402800","6.83100000"],["0.01402900","11.94900000"],["0.01403000","112.23400000"]]}}
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691858,"bids":[["0.00167040","7.88000000"],["0.00167030","6.97000000"],["0.00167020","10.40000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"]],"asks":[["0.00167050","86.55000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"],["0.00167090","19.55000000"]]}}
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:33 - INFO: ("ethbtc", "bnbeth", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:33 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584842,"bids":[["0.19950000","22.63800000"],["0.19940000","40.92600000"],["0.19930000","28.01300000"],["0.19920000","56.57000000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","38.20500000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"sushibtc@depth5@100ms","data":{"lastUpdateId":624551534,"bids":[["0.00005440","83.90000000"],["0.00005430","1775.10000000"],["0.00005420","9630.20000000"],["0.00005410","2734.30000000"],["0.00005400","4187.70000000"]],"asks":[["0.00005450","2500.60000000"],["0.00005460","11280.50000000"],["0.00005470","4753.20000000"],["0.00005480","7125.90000000"],["0.00005490","2943.80000000"]]}}
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:33 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022852804,"bids":[["0.00029880","10182.00000000"],["0.00029870","23713.00000000"],["0.00029860","2776.00000000"],["0.00029840","800.00000000"],["0.00029830","15066.00000000"]],"asks":[["0.00029900","856.00000000"],["0.00029910","19442.00000000"],["0.00029920","5750.00000000"],["0.00029930","3471.00000000"],["0.00029940","668.00000000"]]}}
+2022-09-21 08:30:33 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:33 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837068997,"bids":[["0.00002100","10793.00000000"],["0.00002099","20257.00000000"],["0.00002098","14792.00000000"],["0.00002097","28475.00000000"],["0.00002096","17697.00000000"]],"asks":[["0.00002101","11191.00000000"],["0.00002102","11074.00000000"],["0.00002103","33427.00000000"],["0.00002104","24675.00000000"],["0.00002105","51288.00000000"]]}}
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:33 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:33 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:33 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:33 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"bnbbtc@depth5@100ms","data":{"lastUpdateId":2807897670,"bids":[["0.01402500","12.77000000"],["0.01402400","8.03500000"],["0.01402300","2.98200000"],["0.01402200","4.06500000"],["0.01402100","14.58500000"]],"asks":[["0.01402600","3.36000000"],["0.01402700","5.95700000"],["0.01402800","6.83100000"],["0.01402900","8.74900000"],["0.01403000","112.23400000"]]}}
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691869,"bids":[["0.00167030","0.17000000"],["0.00167020","10.40000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"],["0.00166990","10.09000000"]],"asks":[["0.00167040","51.44000000"],["0.00167050","59.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:34 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584844,"bids":[["0.19950000","22.63800000"],["0.19940000","40.92600000"],["0.19930000","28.01300000"],["0.19920000","58.07300000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954922362,"bids":[["0.07027800","9.63570000"],["0.07027500","0.01000000"],["0.07027400","0.52750000"],["0.07027300","1.30590000"],["0.07027200","0.43470000"]],"asks":[["0.07027900","11.99940000"],["0.07028000","1.92880000"],["0.07028100","0.00590000"],["0.07028200","0.07500000"],["0.07028300","1.04280000"]]}}
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:34 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022852806,"bids":[["0.00029880","5838.00000000"],["0.00029870","23713.00000000"],["0.00029860","2776.00000000"],["0.00029840","800.00000000"],["0.00029830","15066.00000000"]],"asks":[["0.00029900","856.00000000"],["0.00029910","19442.00000000"],["0.00029920","993.00000000"],["0.00029930","3471.00000000"],["0.00029940","668.00000000"]]}}
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837068998,"bids":[["0.00002100","10793.00000000"],["0.00002099","20257.00000000"],["0.00002098","14792.00000000"],["0.00002097","28475.00000000"],["0.00002096","17697.00000000"]],"asks":[["0.00002101","11191.00000000"],["0.00002102","11546.00000000"],["0.00002103","33427.00000000"],["0.00002104","24675.00000000"],["0.00002105","51288.00000000"]]}}
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:34 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691870,"bids":[["0.00167030","0.17000000"],["0.00167020","10.40000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"],["0.00166990","10.09000000"]],"asks":[["0.00167040","51.44000000"],["0.00167050","49.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954922363,"bids":[["0.07027800","9.63570000"],["0.07027500","0.01000000"],["0.07027400","0.52750000"],["0.07027300","1.30590000"],["0.07027200","0.43470000"]],"asks":[["0.07027900","11.99940000"],["0.07028000","1.92880000"],["0.07028100","0.00590000"],["0.07028200","0.07500000"],["0.07028300","1.04280000"]]}}
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:34 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584845,"bids":[["0.19950000","22.63800000"],["0.19940000","39.12100000"],["0.19930000","28.01300000"],["0.19920000","58.07300000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","20.30800000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:34 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:34 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691874,"bids":[["0.00167030","0.17000000"],["0.00167020","10.40000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"],["0.00166990","10.09000000"]],"asks":[["0.00167040","62.85000000"],["0.00167050","49.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:34 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:34 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:34 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:34 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022852807,"bids":[["0.00029880","5838.00000000"],["0.00029870","23713.00000000"],["0.00029860","251.00000000"],["0.00029840","800.00000000"],["0.00029830","15066.00000000"]],"asks":[["0.00029900","856.00000000"],["0.00029910","19442.00000000"],["0.00029920","993.00000000"],["0.00029930","3471.00000000"],["0.00029940","668.00000000"]]}}
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584847,"bids":[["0.19950000","22.63800000"],["0.19940000","40.92600000"],["0.19930000","28.01300000"],["0.19920000","58.07300000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691877,"bids":[["0.00167030","0.17000000"],["0.00167020","2.25000000"],["0.00167010","16.72000000"],["0.00167000","2.25000000"],["0.00166990","78.69000000"]],"asks":[["0.00167040","62.85000000"],["0.00167050","49.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"xrpbtc@depth5@100ms","data":{"lastUpdateId":1837068999,"bids":[["0.00002100","10793.00000000"],["0.00002099","20257.00000000"],["0.00002098","14792.00000000"],["0.00002097","28475.00000000"],["0.00002096","17697.00000000"]],"asks":[["0.00002101","11191.00000000"],["0.00002102","11546.00000000"],["0.00002103","35805.00000000"],["0.00002104","24675.00000000"],["0.00002105","51288.00000000"]]}}
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"xrpeth@depth5@100ms","data":{"lastUpdateId":1022852808,"bids":[["0.00029880","5838.00000000"],["0.00029870","23713.00000000"],["0.00029860","1513.00000000"],["0.00029840","800.00000000"],["0.00029830","15066.00000000"]],"asks":[["0.00029900","856.00000000"],["0.00029910","19442.00000000"],["0.00029920","993.00000000"],["0.00029930","3471.00000000"],["0.00029940","668.00000000"]]}}
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584850,"bids":[["0.19950000","22.63800000"],["0.19940000","40.92600000"],["0.19930000","28.01300000"],["0.19920000","58.07300000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954922364,"bids":[["0.07027800","9.63570000"],["0.07027500","0.01000000"],["0.07027400","0.52750000"],["0.07027300","1.30590000"],["0.07027200","0.43470000"]],"asks":[["0.07027900","11.99940000"],["0.07028000","1.92880000"],["0.07028100","1.03370000"],["0.07028200","0.07500000"],["0.07028300","1.04280000"]]}}
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691878,"bids":[["0.00167030","0.17000000"],["0.00167020","2.25000000"],["0.00167010","1.22000000"],["0.00167000","2.25000000"],["0.00166990","78.69000000"]],"asks":[["0.00167040","62.85000000"],["0.00167050","49.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:35 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:35 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:35 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:35 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:35 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:35 - INFO: msg: {"stream":"adaeth@depth5@100ms","data":{"lastUpdateId":957082944,"bids":[["0.00033600","6772.80000000"],["0.00033590","8442.10000000"],["0.00033580","1278.10000000"],["0.00033570","211.60000000"],["0.00033560","1988.30000000"]],"asks":[["0.00033620","2843.40000000"],["0.00033630","7242.90000000"],["0.00033640","5048.60000000"],["0.00033650","4021.20000000"],["0.00033660","6003.80000000"]]}}
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584852,"bids":[["0.19950000","22.63800000"],["0.19940000","40.92600000"],["0.19930000","28.01300000"],["0.19920000","56.57000000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.0047752369333701195]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005506682972267751]
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419347439,"bids":[["0.00002362","267.70000000"],["0.00002361","20920.30000000"],["0.00002360","44405.00000000"],["0.00002359","30150.50000000"],["0.00002358","54426.00000000"]],"asks":[["0.00002363","10500.40000000"],["0.00002364","24228.20000000"],["0.00002365","44237.30000000"],["0.00002366","30924.60000000"],["0.00002367","16274.90000000"]]}}
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"ethbtc@depth5@100ms","data":{"lastUpdateId":5954922366,"bids":[["0.07027800","9.63570000"],["0.07027500","0.01000000"],["0.07027400","0.52750000"],["0.07027300","1.30590000"],["0.07027200","0.43470000"]],"asks":[["0.07027900","12.62150000"],["0.07028000","1.92880000"],["0.07028100","1.03370000"],["0.07028200","0.07500000"],["0.07028400","0.29680000"]]}}
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"adabnb@depth5@100ms","data":{"lastUpdateId":471083063,"bids":[["0.00168400","101.40000000"],["0.00168300","5399.90000000"],["0.00168200","5123.00000000"],["0.00168100","14072.00000000"],["0.00168000","17429.90000000"]],"asks":[["0.00168500","13237.30000000"],["0.00168600","4560.10000000"],["0.00168700","8659.40000000"],["0.00168800","976.10000000"],["0.00168900","17632.90000000"]]}}
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"solbtc@depth5@100ms","data":{"lastUpdateId":2191691882,"bids":[["0.00167030","0.17000000"],["0.00167020","2.25000000"],["0.00167010","1.22000000"],["0.00167000","2.25000000"],["0.00166990","10.09000000"]],"asks":[["0.00167040","62.85000000"],["0.00167050","49.91000000"],["0.00167060","134.07000000"],["0.00167070","11.20000000"],["0.00167080","25.90000000"]]}}
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"bnbeth@depth5@100ms","data":{"lastUpdateId":1215584854,"bids":[["0.19950000","22.63800000"],["0.19940000","38.92600000"],["0.19930000","28.01300000"],["0.19920000","58.07300000"],["0.19910000","17.80800000"]],"asks":[["0.19960000","9.37000000"],["0.19970000","57.85800000"],["0.19980000","22.11300000"],["0.19990000","39.70800000"],["0.20000000","68.18300000"]]}}
+2022-09-21 08:30:36 - DEBUG: No clients connected, skip sending data
+2022-09-21 08:30:36 - INFO: msg: {"stream":"adabtc@depth5@100ms","data":{"lastUpdateId":1419347451,"bids":[["0.00002362","267.70000000"],["0.00002361","16345.20000000"],["0.00002360","44405.00000000"],["0.00002359","30150.50000000"],["0.00002358","56653.00000000"]],"asks":[["0.00002363","17168.50000000"],["0.00002364","24228.20000000"],["0.00002365","44237.30000000"],["0.00002366","30924.60000000"],["0.00002367","16274.90000000"]]}}
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "bnb"]: ethbtc->bnbeth->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "bnb"] potential profits: [-0.002439531571666209, -0.003024338757451339, -0.003608558125109962, -0.004192190556913777, -0.004789396980650729]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sol", "bnb"]: solbtc->solbnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("solbtc", "solbnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "xrp", "eth"]: xrpbtc->xrpeth->ethbtc
+2022-09-21 08:30:36 - INFO: ["btc", "xrp", "eth"] potential profits: [-0.0027675427098731165, -0.0036180854865682788, -0.004439457230735688, -0.005593284937135845, -0.006412914244000145]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "sushi", "bnb"]: sushibtc->sushibnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ("sushibtc", "sushibnb", "bnbbtc") One or more of the pairs were not found, skipping
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "ada", "bnb"]: adabtc->adabnb->bnbbtc
+2022-09-21 08:30:36 - INFO: ["btc", "ada", "bnb"] potential profits: [-0.002750777800259785, -0.0038355991083232066, -0.004919418643467344, -0.006002237675904021, -0.007084057473695671]
+2022-09-21 08:30:36 - INFO: processing triangle ["btc", "eth", "ada"]: ethbtc->adaeth->adabtc
+2022-09-21 08:30:36 - INFO: ["btc", "eth", "ada"] potential profits: [-0.0025776818717875294, -0.003310603983347371, -0.004043077937309292, -0.004775104133749486, -0.005520832612541993]
