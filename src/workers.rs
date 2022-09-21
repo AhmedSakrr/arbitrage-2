@@ -8,7 +8,6 @@ use std::{collections::HashMap, net::TcpStream};
 use tokio::time::{Duration, Instant};
 
 use tungstenite::{protocol::WebSocket, stream::MaybeTlsStream};
-use warp::ws::Message;
 
 pub async fn main_worker(
     clients: Clients,
@@ -44,7 +43,7 @@ pub async fn main_worker(
         info!("msg: {}", msg);
         let parsed: models::DepthStreamWrapper = serde_json::from_str(&msg).expect("Can't parse");
 
-        let pair_key = parsed.stream.split_once("@").unwrap().0;
+        let pair_key = parsed.stream.split_once('@').unwrap().0;
         pairs_data.insert(pair_key.to_string(), parsed);
 
         if interval_timer.elapsed().as_millis() < 105 {
@@ -81,7 +80,7 @@ async fn process_triangle_data(
     mid_pair: &str,
     end_pair: &str,
     triangle: [&str; 3],
-    clients: Clients,
+    _clients: Clients,
 ) {
     info!(
         "processing triangle {:?}: {}->{}->{}",
@@ -109,7 +108,7 @@ async fn process_triangle_data(
 
     for i in 0..start_pair_data.data.asks.len() {
         let mut triangle_profit = calc_triangle_step(
-            1.0,
+            1.0, //Amount of coin A
             start_pair_data.data.asks[i].price,
             start_pair_data.data.bids[i].price,
             start_pair,

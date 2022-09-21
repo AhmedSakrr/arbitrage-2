@@ -61,8 +61,7 @@ async fn client_msg(client_id: &str, msg: Message, clients: &Clients) {
                     let _ = sender.send(Ok(Message::text("pong")));
                 }
             }
-            None => return,
+            None => (),
         }
-        return;
     };
 }

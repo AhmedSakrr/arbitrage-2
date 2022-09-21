@@ -1,5 +1,4 @@
 use log::{debug, info};
-use log4rs;
 use std::{collections::HashMap, convert::Infallible, sync::Arc};
 use tokio::sync::{mpsc, Mutex};
 use url::Url;
