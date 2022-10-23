@@ -4,12 +4,12 @@ use log::{error, info};
 use tokio::sync::mpsc;
 use tokio_stream::wrappers::UnboundedReceiverStream;
 use uuid::Uuid;
-use warp::ws::WebSocket;
+use warp::ws::{Message, WebSocket};
 
 pub async fn client_connection(ws: WebSocket, clients: Clients) {
     info!("establishing client connection... {:?}", ws);
 
-    let (client_ws_sender, _client_ws_rcv) = ws.split();
+    let (client_ws_sender, mut client_ws_rcv) = ws.split();
     let (client_sender, client_rcv) = mpsc::unbounded_channel();
 
     let client_rcv = UnboundedReceiverStream::new(client_rcv);
@@ -29,6 +29,39 @@ pub async fn client_connection(ws: WebSocket, clients: Clients) {
 
     clients.lock().await.insert(uuid.clone(), new_client);
 
+    while let Some(result) = client_ws_rcv.next().await {
+        let msg = match result {
+            Ok(msg) => msg,
+            Err(e) => {
+                error!("error receiving message for id {}): {}", uuid.clone(), e);
+                break;
+            }
+        };
+        client_msg(&uuid, msg, &clients).await;
+    }
+
     clients.lock().await.remove(&uuid);
     info!("{} disconnected", uuid);
+}
+
+async fn client_msg(client_id: &str, msg: Message, clients: &Clients) {
+    info!("received message from {}: {:?}", client_id, msg);
+
+    let message = match msg.to_str() {
+        Ok(v) => v,
+        Err(_) => return,
+    };
+
+    if message == "ping" || message == "ping\n" {
+        let locked = clients.lock().await;
+        match locked.get(client_id) {
+            Some(v) => {
+                if let Some(sender) = &v.sender {
+                    info!("sending pong");
+                    let _ = sender.send(Ok(Message::text("pong")));
+                }
+            }
+            None => (),
+        }
+    };
 }

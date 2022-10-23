@@ -26,6 +26,14 @@ pub async fn main_worker(
         let msg = socket.read_message().expect("Error reading message");
         let msg = match msg {
             tungstenite::Message::Text(s) => s,
+            tungstenite::Message::Ping(p) => {
+                info!("Ping message received! {:?}", p);
+                continue;
+            }
+            tungstenite::Message::Pong(p) => {
+                info!("Pong received: {:?}", p);
+                continue;
+            }
             _ => {
                 error!("Error getting text: {:?}", msg);
                 continue;
