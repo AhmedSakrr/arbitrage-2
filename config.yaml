@@ -67,6 +67,8 @@ triangles:
   - parts: [btc, eth, bnb]
     pairs: [ethbtc, bnbeth, bnbbtc] 
     # First is correct I think
+    # example(start and end with the same):
+    # BTC -> ETH, ETH -> BNB, BNB -> BTC
   - parts: [btc, xrp, eth]
     pairs: [xrpbtc, xrpeth, ethbtc]
   - parts: [usdc, eth, btc]
