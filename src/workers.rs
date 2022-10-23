@@ -194,7 +194,7 @@ fn calc_triangle_step(
     // subtract trading fee - should maybe look at pairs with no fees now !??
 
     let trade_amount = match pair_name {
-        "btcusdt" | "usdtbtc" | "btcbusd" | "busdbtc" | "btcusdc" | "usdcbtc" => trade_amount,
+        "btcusdt" | "btcbusd" | "btcusdc" => trade_amount,
         _ => trade_amount - ((trade_amount / 100.0) * 0.075),
     };
 
