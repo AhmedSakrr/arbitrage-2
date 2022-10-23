@@ -26,14 +26,6 @@ pub async fn main_worker(
         let msg = socket.read_message().expect("Error reading message");
         let msg = match msg {
             tungstenite::Message::Text(s) => s,
-            tungstenite::Message::Ping(p) => {
-                info!("Ping message received! {:?}", p);
-                continue;
-            }
-            tungstenite::Message::Pong(p) => {
-                info!("Pong received: {:?}", p);
-                continue;
-            }
             _ => {
                 error!("Error getting text: {:?}", msg);
                 continue;
@@ -108,7 +100,7 @@ async fn process_triangle_data(
 
     for i in 0..start_pair_data.data.asks.len() {
         let mut triangle_profit = calc_triangle_step(
-            1.0, //Amount of coin A
+            0.5, //Amount of coin A
             start_pair_data.data.asks[i].price,
             start_pair_data.data.bids[i].price,
             start_pair,
