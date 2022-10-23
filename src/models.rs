@@ -31,6 +31,8 @@ pub struct DepthStreamWrapper {
     pub data: DepthStreamData,
 }
 
+// Using this struct we can send the triangle representing the names of coins making up the triangle arbitrage, the profit values,
+// and we are also sending all the trading data we have collected for each trading coin pair.
 #[derive(Debug, Serialize, Clone)]
 pub struct TriangleArbitrageData {
     pub triangle: [String; 3],

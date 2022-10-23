@@ -12,12 +12,15 @@ mod ws;
 
 static BINANCE_WS_API: &str = "wss://stream.binance.com:9443";
 
+// The client struct represents information about a connected client. The client_id field is a randomly generated
+// uuid string. The sender field allows us to send data to the cliend.
 #[derive(Debug, Clone)]
 pub struct Client {
     pub client_id: String,
     pub sender: Option<mpsc::UnboundedSender<std::result::Result<Message, warp::Error>>>,
 }
 
+// The alias type Clients represents a thread safe, referance tracked hashmap that keeps track of the connected clients
 type Clients = Arc<Mutex<HashMap<String, Client>>>;
 type Result<T> = std::result::Result<T, Rejection>;
 
@@ -48,6 +51,8 @@ async fn main() {
 
     let clients: Clients = Arc::new(Mutex::new(HashMap::new()));
 
+    // Configure the websocket route, pass a clone of the clients hashmap to use in the ws_handler function.
+    // Cloning creates a reference to the original clients, then configure cors on all routes.
     info!("Configuring websocket route");
     let ws_route = warp::path("ws")
         .and(warp::ws())
@@ -72,6 +77,8 @@ async fn main() {
         debug!("- {}: {:?}", header, header_value);
     }
 
+    // Using spawn we create a new task in a separete green thred, we pass the list of connected clients to the main_worker function
+    // This function contains the data update loop that sends data to all the conneced clients in the list
     info!("Starting update loop");
     tokio::task::spawn(async move {
         workers::main_worker(clients.clone(), app_config, socket).await;

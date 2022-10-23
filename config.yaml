@@ -65,7 +65,8 @@ depth_streams:
 
 triangles:
   - parts: [btc, eth, bnb]
-    pairs: [ethbtc, bnbeth, bnbbtc]
+    pairs: [ethbtc, bnbeth, bnbbtc] 
+    # First is correct I think
   - parts: [btc, xrp, eth]
     pairs: [xrpbtc, xrpeth, ethbtc]
   - parts: [usdc, eth, btc]

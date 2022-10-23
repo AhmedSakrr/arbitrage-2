@@ -9,11 +9,14 @@ use warp::ws::{Message, WebSocket};
 pub async fn client_connection(ws: WebSocket, clients: Clients) {
     info!("establishing client connection... {:?}", ws);
 
+    // Split the websocket stream object into separete sink and stream objects. This allows us to
+    // receive messages from the client and send messages to the client in separete areas of the code
     let (client_ws_sender, mut client_ws_rcv) = ws.split();
     let (client_sender, client_rcv) = mpsc::unbounded_channel();
 
     let client_rcv = UnboundedReceiverStream::new(client_rcv);
 
+    // Spawn a new task that keeps the client_ws_sender stream open until the client has disconnected
     tokio::task::spawn(client_rcv.forward(client_ws_sender).map(|result| {
         if let Err(e) = result {
             error!("error sending websocket msg: {}", e);
@@ -29,6 +32,8 @@ pub async fn client_connection(ws: WebSocket, clients: Clients) {
 
     clients.lock().await.insert(uuid.clone(), new_client);
 
+    // Handles receiving messages from the client and runs until the client is disconnected. If a message is received
+    // the code in the while loop will call client_msg to do further processing of the message
     while let Some(result) = client_ws_rcv.next().await {
         let msg = match result {
             Ok(msg) => msg,
@@ -44,6 +49,9 @@ pub async fn client_connection(ws: WebSocket, clients: Clients) {
     info!("{} disconnected", uuid);
 }
 
+// The code tries to conver msg to a sttring, and if successful respons to it if the message is "ping".
+// To send the response, we first obtain a lock on the clients and then get the client by its client id.
+// We then use the sender field to send a message to the connected client.
 async fn client_msg(client_id: &str, msg: Message, clients: &Clients) {
     info!("received message from {}: {:?}", client_id, msg);
 
