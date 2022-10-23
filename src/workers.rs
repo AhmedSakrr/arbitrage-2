@@ -19,11 +19,12 @@ pub async fn main_worker(
     let mut pairs_data: HashMap<String, DepthStreamWrapper> = HashMap::new();
     let mut interval_timer = Instant::now();
     loop {
-        let connected_client_count = clients.lock().await.len();
-        if connected_client_count == 0 {
-            tokio::time::sleep(Duration::from_millis(500)).await; // How often to update ws
-            debug!("No clients connected, skip sending data");
-        }
+        // Not necessary
+        // let connected_client_count = clients.lock().await.len();
+        // if connected_client_count == 0 {
+        //     tokio::time::sleep(Duration::from_millis(500)).await;
+        //     debug!("No clients connected, skip sending data");
+        // }
 
         let msg = socket.read_message().expect("Error reading message");
         let msg = match msg {

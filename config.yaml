@@ -4,79 +4,46 @@ depth_streams:
   - btcusdt
   - btcbusd
   - btcusdc
-  - usdtbtc
-  - busdbtc
-  - usdcbtc
   - ethusdt
   - ethbusd
   - ethusdc
-  - usdteth
-  - busdeth
-  - usdceth
   - bnbusdt
   - bnbbusd
   - bnbusdc
-  - usdtbnb
-  - busdbnb
-  - usdcbnb
   - aptusdt
   - aptbusd
   - aptusdc
-  - usdtapt
-  - busdapt
-  - usdcapt
-  - btceth
-  - ethbtc
-  - btcbnb
-  - bnbbtc
-  - ethbnb
-  - bnbeth
-  - btcapt
-  - aptbtc
-  - apteth
-  - ethapt
-  - bnbapt
-  - aptbnb
   - xrpusdt
   - xrpbusd
   - xrpusdc
-  - usdtxrp
-  - busdxrp
-  - usdcxrp
-  - btcxrp
-  - xrpbtc
-  - ethxrp
-  - xrpeth
-  - bnbxrp
-  - xrpbnb
   - solusdt
   - solbusd
   - solusdc
-  - usdtsol
-  - busdsol
-  - usdcsol
-  - btcsol
+  - ethbtc
+  - bnbbtc
+  - bnbeth
+  - aptbtc
+  - apteth
+  - aptbnb
+  - xrpbtc
+  - xrpeth
+  - xrpbnb
   - solbtc
-  - ethsol
   - soleth
-  - bnbsol
   - solbnb
 
-
+# Should add a lot more pairs
 triangles:
   - parts: [btc, eth, bnb]
     pairs: [ethbtc, bnbeth, bnbbtc] 
-    # First is correct I think
-    # example(start and end with the same):
-    # BTC -> ETH, ETH -> BNB, BNB -> BTC
+  - parts: [btc, sol, bnb]
+    pairs: [solbtc, solbnb, bnbbtc]
   - parts: [btc, xrp, eth]
     pairs: [xrpbtc, xrpeth, ethbtc]
-  - parts: [usdc, eth, btc]
-    pairs: [ethusdc, ethbtc, btcusdc]
-  - parts: [usdc, xrp, eth]
-    pairs: [xrpusdc, xrpeth, ethusdc]
-  - parts: [usdc, xrp, bnb]
-    pairs: [xrpusdc, xrpbnb, bnbusdc]
+  - parts: [busd, xrp, eth]
+    pairs: [xrpbusd, xrpeth, ethbusd]
+  - parts: [busd, xrp, bnb]
+    pairs: [xrpbusd, xrpbnb, bnbbusd]
   - parts: [usdt, xrp, eth]
     pairs: [xrpusdt, xrpeth, ethusdt]
   - parts: [usdt, xrp, bnb]
@@ -85,29 +52,3 @@ triangles:
     pairs: [solusdt, solbtc, btcusdt]
   - parts: [usdt, sol, bnb]
     pairs: [solusdt, solbnb, bnbusdt]
-  - parts: [usdt, btc, busd]
-    pairs: [usdtbtc, btcbusd, busdusdt]
-  - parts: [usdt, btc, busd]
-    pairs: [btcusdt, btcbusd, busdusdt]
-  - parts: [usdt, btc, busd]
-    pairs: [btcusdt, btcbusd, busdbtc]
-  - parts: [usdt, btc, busd]
-    pairs: [btcbusd, busdusdt, usdtbtc]
-  - parts: [usdt, btc, ltc]
-    pairs: [usdtbtc, btcltc, ltcusdt]
-  - parts: [usdt, sol, btc]
-    pairs: [usdtsol, solbtc, btcusdt]
-  - parts: [usdt, sol, btc]
-    pairs: [usdtbtc, btcsol, solusdt]
-  - parts: [usdt, bnb, btc]
-    pairs: [usdtbnb, bnbbtc, btcusdt]
-  - parts: [usdt, bnb, btc]
-    pairs: [usdtbtc, btcbnb, bnbusdt]
-  - parts: [busd, bnb, btc]
-    pairs: [busdbnb, bnbbtc, btcbusd]
-  - parts: [usdt, bnb, btc]
-    pairs: [busdbtc, btcbnb, bnbbusd]
-  - parts: [usdt, busd, btc]
-    pairs: [usdtbusd, busdbtc, btcusdt]
-  - parts: [usdt, busd, btc]
-    pairs: [busdusdt, usdtbtc, btcbusd]
