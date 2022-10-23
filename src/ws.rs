@@ -60,6 +60,8 @@ async fn client_msg(client_id: &str, msg: Message, clients: &Clients) {
         Err(_) => return,
     };
 
+    //every third minute binance ws will send a ping frame, if the websocket server does not receive a pong frame back
+    // within a 10 minute period , the connection will be disconnected
     if message == "ping" || message == "ping\n" {
         let locked = clients.lock().await;
         match locked.get(client_id) {
